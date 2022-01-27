@@ -1,0 +1,24 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    max-width: 375px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+}
+
+.qr-code{
+    box-sizing: 290px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
