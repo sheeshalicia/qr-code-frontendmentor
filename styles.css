@@ -7,10 +7,12 @@ body{
 .card {
     background-color: rgb(255, 255, 255);
     width: 320px;
+    display: flex;
+    flex-direction: column;
 }
 
 .qr-code{
-    box-sizing: 290px;
+    max-width: 90%;
 }
 
 .attribution { 
@@ -22,3 +24,14 @@ body{
     color: hsl(228, 45%, 44%); 
 }
 
+/* Mobile Styling */
+@media only screen and (max-width: 1399px) {
+
+
+}
+
+/* Desktop Styling */
+@media only screen and (min-width: 1400px) {
+
+
+}
